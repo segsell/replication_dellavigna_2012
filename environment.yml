@@ -1,0 +1,28 @@
+name: dellavigna
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - pip
+
+  - ipykernel
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - nb_conda_kernels
+
+  - numpy
+  - numba
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - statsmodels
+
+  - black
+  - flake8
+
+  - pip:
+    - linearmodels
